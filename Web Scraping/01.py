@@ -37,10 +37,13 @@ valores = {'class':'discount_final_price'}
 dados_obtidos = soup.find_all("div", attrs=atributos)
 valores = soup.find_all("div", attrs=valores)
 
+j = []
+k = []
+p = []
 
 ''' *5 '''
 
-while i < 10:
+while i < 20:
     print(f"{REVERSE}{dados_obtidos[i].text}{RESET} \nvalor:{GREEN} {valores[i].text}{RESET}\n")
     i+=1
 
