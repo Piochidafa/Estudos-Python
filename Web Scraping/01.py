@@ -37,10 +37,6 @@ valores = {'class':'discount_final_price'}
 dados_obtidos = soup.find_all("div", attrs=atributos)
 valores = soup.find_all("div", attrs=valores)
 
-j = []
-k = []
-p = []
-
 ''' *5 '''
 
 while i < 20:
