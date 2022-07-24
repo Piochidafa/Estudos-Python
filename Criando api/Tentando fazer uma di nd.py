@@ -18,6 +18,7 @@ a = {'p1': {
    }
 }
 
+
 @app.route('/')
 def ap():
     return jsonify(a)
