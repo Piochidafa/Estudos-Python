@@ -68,7 +68,7 @@ async def tst(ctx):
 #     await id_channel.send(f"Cade o nargas o {bp.user.name} quer bufar um nargas")
 
 
-bp.run("OTkwMDM5NzE1OTQ2MzMyMTgw.GjgTB6.HjGW_HCiFHh3B5KomhYRC16PRlFV_Nr5otrUY0")
+bp.run("")
 
 
 
